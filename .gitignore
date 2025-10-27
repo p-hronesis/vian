@@ -1,0 +1,36 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# Deployment info (contains sensitive addresses)
+deployment-info.json
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs
+
+# Testing
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+
+# miscellaneous
+imp
