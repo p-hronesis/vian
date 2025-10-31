@@ -53,7 +53,7 @@ async function main() {
   console.log("Network:", (await ethers.provider.getNetwork()).name);
   console.log("Chain ID:", (await ethers.provider.getNetwork()).chainId);
 
-  console.log("\n=== Next Steps ===");
+  console.log("\n=== NEXT POSSIBLE STEPS IF ON MAINNET ===");
   console.log("1. Verify contract on Etherscan (if mainnet):");
   console.log(`   npx hardhat verify --network mainnet ${contractAddress}`);
   console.log("\n2. Fund the contract with tokens to cover flash loan premiums");
