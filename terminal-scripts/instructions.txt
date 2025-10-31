@@ -1,0 +1,9 @@
+Rename the .env.example file as .env and change "your_private_key_without_0x_prefix" to your desired private key
+
+
+00_npm_install - For installing the needed packages(It must be run once to install needed dependencies)
+01_hardhat_test - Use to run mainnet fork test
+02_hardhat_test_gas - Use to run mainnet fork test, but with gas reporter on
+03_deploy_hardhat - use to simulate deployment of contract on mainnet fork
+04_deploy_mainnet - use to deploy contract on to mainnet
+05_verify_contract - use to verify contract that has been deployed(Remember to open the file with a text editor and changed CONTRACT_ADDRESS_PLACEHOLDER to the contract address you want to verify)
